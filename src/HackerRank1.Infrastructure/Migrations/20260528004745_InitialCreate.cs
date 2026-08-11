@@ -1,10 +1,13 @@
 using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace HackerRank1.Infrastructure.Migrations
 {
+    [DbContext(typeof(LibraryContext))]
+    [Migration("20260528004745_InitialCreate")]
     /// <inheritdoc />
     public partial class InitialCreate : Migration
     {
