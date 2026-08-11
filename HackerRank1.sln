@@ -1,9 +1,14 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank1", "HackerRank1\HackerRank1.csproj", "{C256EBB9-D0DF-426D-A8DD-B0E97F6BDFA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank1.Domain", "src\HackerRank1.Domain\HackerRank1.Domain.csproj", "{3BDB46B2-F89E-44FB-B7E1-557F2DAF0EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank1.Application", "src\HackerRank1.Application\HackerRank1.Application.csproj", "{E597C0E6-3687-467D-A347-24C41D3E2D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank1.Infrastructure", "src\HackerRank1.Infrastructure\HackerRank1.Infrastructure.csproj", "{6290B705-FB37-4567-8542-ED769036FA44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank1.API", "src\HackerRank1.API\HackerRank1.API.csproj", "{1C0DADED-DFFF-4BD3-BF00-1FF7F6CC1567}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryService.Integration.Test", "LibraryService.Integration.Test\LibraryService.Integration.Test.csproj", "{EBEA5836-C00D-443D-B656-6D8407348459}"
 EndProject
@@ -13,10 +18,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C256EBB9-D0DF-426D-A8DD-B0E97F6BDFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C256EBB9-D0DF-426D-A8DD-B0E97F6BDFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C256EBB9-D0DF-426D-A8DD-B0E97F6BDFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C256EBB9-D0DF-426D-A8DD-B0E97F6BDFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDB46B2-F89E-44FB-B7E1-557F2DAF0EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDB46B2-F89E-44FB-B7E1-557F2DAF0EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDB46B2-F89E-44FB-B7E1-557F2DAF0EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDB46B2-F89E-44FB-B7E1-557F2DAF0EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E597C0E6-3687-467D-A347-24C41D3E2D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E597C0E6-3687-467D-A347-24C41D3E2D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E597C0E6-3687-467D-A347-24C41D3E2D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E597C0E6-3687-467D-A347-24C41D3E2D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6290B705-FB37-4567-8542-ED769036FA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6290B705-FB37-4567-8542-ED769036FA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6290B705-FB37-4567-8542-ED769036FA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6290B705-FB37-4567-8542-ED769036FA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0DADED-DFFF-4BD3-BF00-1FF7F6CC1567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0DADED-DFFF-4BD3-BF00-1FF7F6CC1567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0DADED-DFFF-4BD3-BF00-1FF7F6CC1567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0DADED-DFFF-4BD3-BF00-1FF7F6CC1567}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EBEA5836-C00D-443D-B656-6D8407348459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EBEA5836-C00D-443D-B656-6D8407348459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBEA5836-C00D-443D-B656-6D8407348459}.Release|Any CPU.ActiveCfg = Release|Any CPU
